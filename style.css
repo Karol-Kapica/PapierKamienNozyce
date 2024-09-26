@@ -1,0 +1,34 @@
+html, body{
+    background-color: black;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    color: #15e6df;
+}
+img{
+    width: 695px;
+    height:574px;
+   
+}
+#stack{
+    display: flex;
+    clear:left;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: black;
+    color: #15e6df;
+    border-color: #15e6df;
+}
